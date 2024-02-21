@@ -1,95 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Navbar</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      .navbar-nav .nav-item {
-        margin-right: 15px;
-      }
-    </style>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <!-- <a class="navbar-brand" href="#">Logo</a> -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <!-- <a class="navbar-brand" href="#">Logo</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div
-          class="collapse navbar-collapse justify-content-between"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Products
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Sukkari Dates</a>
-                <a class="dropdown-item" href="#">Ajwa Dates</a>
-                <a class="dropdown-item" href="#">Kalmi Dates</a>
-                <a class="dropdown-item" href="#">Mabroom Dates</a>
-                <a class="dropdown-item" href="#">Medjool Dates</a>
-                <a class="dropdown-item" href="#">Amber Dates</a>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Sukkari Dates</a>
+              <a class="dropdown-item" href="#">Ajwa Dates</a>
+              <a class="dropdown-item" href="#">Kalmi Dates</a>
+              <a class="dropdown-item" href="#">Mabroom Dates</a>
+              <a class="dropdown-item" href="#">Medjool Dates</a>
+              <a class="dropdown-item" href="#">Amber Dates</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Order Now</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fab fa-whatsapp icon"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/almadeenahdates/"><i class="fab fa-instagram icon"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="header-container">
+    <img src="images/header.png" alt="Header Image">
+</div>
+
+
+    <!-- About Section -->
+    <section id="about" class="container mt-5">
+    
+        <div class="sec-title">
+            <h2>About Us</h2>
+        </div>
+          <div class="sec-content container mt-5">
+         <div class="p-container mr-5">
+            <div class="sec-item"> 
+                <p>
+                <strong>At Al Madinah Dates,</strong> we believe in the wisdom of Prophetic nutrition. 
+              </p></div>
+              <div class="sec-item">
+                <p>We promote timeless fruit, Prophetic food, and a sweet remedy for a healthier tomorrow.</p>
               </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Order Now</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fab fa-whatsapp icon"></i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fab fa-instagram icon"></i
-              ></a>
-            </li>
-          </ul>
+              <div class="sec-item">
+                <p> <strong>Allah's Messenger (ﷺ) said,</strong> "He who eats seven 'Ajwa dates every morning, will not be affected by poison or magic on the day he eats them."</p>
+              </div>
+         </div>
+          <div class="sec-img-container">
+            <div class="sec-img ml-5">
+                <img style="    height: 300px;" src="images/header.png" alt="About Image">
+              </div>
+          </div>
+
+          </div>
+         
+    </section>
+
+
+
+
+      <!-- Products Section -->
+      <section id="products">
+        <div  class="container">
+        <div class="sec-title">
+            <h2>Products</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <img src="images/header.png" class="card-img-top" alt="Product 1">
+              <div class="card-body">
+                <h5 class="card-title">AJWA PREMIUM</h5>
+                <p class="card-text">500gm</p>
+                <p class="card-text">Total price: Rs 625</p>
+                <a href="#" class="btn btn-primary btn-order-now" onclick="sendWhatsAppMessage('AJWA PREMIUM', '500gm', 'Rs 625')">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <img src="images/header.png" class="card-img-top" alt="Product 2">
+              <div class="card-body">
+                <h5 class="card-title">PREMIUM KALMI</h5>
+                <p class="card-text">500gm</p>
+                <p class="card-text">Total price: Rs 400</p>
+                <a href="#" class="btn btn-primary btn-order-now" onclick="sendWhatsAppMessage('PREMIUM KALMI', '500gm', 'Rs 400')">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <img src="images/header.png" class="card-img-top" alt="Product 3">
+              <div class="card-body">
+                <h5 class="card-title">SUKKARI</h5>
+                <p class="card-text">500gm</p>
+                <p class="card-text">Total price: Rs 300</p>
+                <a href="#" class="btn btn-primary btn-order-now" onclick="sendWhatsAppMessage('SUKKARI', '500gm', 'Rs 300')">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <img src="images/header.png" class="card-img-top" alt="Product 2">
+              <div class="card-body">
+                <h5 class="card-title">MEDJOUL JUMBO</h5>
+                <p class="card-text">500gm</p>
+                <p class="card-text">Total price: Rs 800</p>
+                <a href="#" class="btn btn-primary btn-order-now" onclick="sendWhatsAppMessage('MEDJOUL JUMBO', '500gm', 'Rs 800')">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <img src="images/header.png" class="card-img-top" alt="Product 2">
+              <div class="card-body">
+                <h5 class="card-title">MABROOM PREMIUM</h5>
+                <p class="card-text">500gm</p>
+                <p class="card-text">Total price: Rs 700</p>
+                <a href="#" class="btn btn-primary btn-order-now" onclick="sendWhatsAppMessage('MABROOM PREMIUM', '500gm', 'Rs 700')">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <img src="images/header.png" class="card-img-top" alt="Product 2">
+              <div class="card-body">
+                <h5 class="card-title">AMBER PREMIUM</h5>
+                <p class="card-text">500gm</p>
+                <p class="card-text">Total price: Rs 675</p>
+                <a href="#" class="btn btn-primary btn-order-now" onclick="sendWhatsAppMessage('AMBER PREMIUM', '500gm', 'Rs 675')">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+      
+<!-- Contact Section -->
+<section id="contact" class="text-center mb-5">
+    <div class="container">
+      <div class="sec-title mb-4">
+        <h2 style="color: brown;">Contact Us</h2>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-4">
+          <div class="contact-item">
+            <i class="fab fa-whatsapp fa-3x" style="color: brown;"></i>
+            <div class="contact-info" style="color: brown; font-size: larger;
+            font-weight: 600;">
+              <p>+91-8897983419</p>
+              <p>+91-8498083740</p>
+            </div>
+          </div>
         </div>
 
-      </div>
-    </nav>
+        <div class="col-md-4">
+            <div class="contact-btn">
+                <a href="#" class="btn btn-order-now">Order Now</a>
+            </div>
+            
+          </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
+        <div class="col-md-4">
+          <a href="https://www.instagram.com/almadeenahdates/" target="_blank" class="contact-link">
+            <i class="fab fa-instagram fa-3x" style="color: brown;"></i>
+            <div class="contact-info" style="color: brown; font-size: larger;
+            font-weight: 600;">
+              <p>@almadinahdates</p>
+            </div>
+          </a>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  </main>
+
+  <script>
+    function sendWhatsAppMessage(productName, weight, price) {
+      // Replace the WhatsApp number with your desired number
+      var whatsappNumber = "+91-8897983419";
+      var message = "I want to order " + productName + " - " + weight + ". Price: " + price;
+
+      // Construct the WhatsApp message URL
+      var url = "https://api.whatsapp.com/send?phone=" + encodeURIComponent(whatsappNumber) + "&text=" + encodeURIComponent(message);
+
+      // Open WhatsApp message window
+      window.open(url, '_blank');
+    }
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
 </html>

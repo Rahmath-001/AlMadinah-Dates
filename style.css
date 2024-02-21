@@ -1,12 +1,23 @@
+
+  
+
 .navbar {
-    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+  }
+  
+.navbar {
+    background-color: #aa877f9c;
     font-size: 22px;
   }
   .navbar-nav .nav-link {
-    color: black !important;
+    color: black ;
   }
   .navbar-nav .nav-link:hover {
-    color: #82382A !important;
+    color: #82382A ;
   }
   .navbar-nav .nav-link:hover .icon {
     color: #82382A !important;
@@ -23,13 +34,13 @@
 
   .navbar-light .navbar-nav .nav-link {
     margin: 0px 20px 0px 0px;
-    color: rgba(0,0,0,.5);
+    color: rgba(0, 0, 0, 0.733);
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-    background-color: transparent;
+    background-color: #bb533e7a;
+    color: white;
     border-radius: 15px;
-    
 }
 
 .dropdown-item{
@@ -44,3 +55,125 @@
 .dropdown-menu.show{
     transition: opacity 3s ease-in-out; 
 }
+
+
+
+main img{
+    width: 100%;
+    height: 960px;
+}
+
+
+section .sec-title h2{
+    text-align: center; 
+    color: #82382A; 
+    font-size: 50px;
+    font-weight: 600;
+}
+
+section{
+    margin-top: 12%;
+    margin-bottom: 14%;
+}
+
+
+.header-container{
+    margin-bottom: 10%;
+}
+
+
+/* A B O U T  */
+
+
+#about p {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.sec-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+    /*    P R O D U C T S   */
+
+    #products {
+        background-color: #8a858559; 
+        padding: 30px 0px 35px 0px;
+      }
+      
+    #products .card {
+        height: 390px;
+        padding: 10px;
+    border-radius: 15px;
+    border: 3px #d1ccccb9 solid;
+    border-bottom: 2px solid #82382A;
+    transition: background-color 0.3s ease;
+      }
+      #products .card:hover {
+        border: 5px solid #63271b;
+        transition: background-color 0.3s ease;
+        background-color: #82382A; 
+        color: white;
+      }
+
+      .card img{
+        height: auto;
+      }
+
+
+      
+      .card:hover .btn-order-now {
+        background-color: white;
+        color: brown;
+      }
+      
+      .btn-order-now {
+        background-color: brown;
+        border-color: brown;
+        color: white;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      
+      .btn-order-now:hover {
+        border-color: brown;
+      }
+
+
+
+      /*   C O N T A C T   */
+
+   
+      .contact-item {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 10px;
+      }
+      
+      .contact-info {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+      }
+      
+      .contact-btn{
+        margin: 60px;
+      }
+      .contact-btn .btn{
+        font-size: 20px;
+        height: 45px;
+        width: 250px;
+      }
+      .contact-btn .btn:hover{
+        background-color: #63271b;
+        color: white;
+      }
+      

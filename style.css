@@ -1,40 +1,41 @@
-
-  
-
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; 
-  }
-  
+    z-index: 1000;
+}
+
 .navbar {
-    background-color: #aa877f9c;
+    background-color: #82382a94;
     font-size: 22px;
-  }
-  .navbar-nav .nav-link {
-    color: black ;
-  }
-  .navbar-nav .nav-link:hover {
-    color: #82382A ;
-  }
-  .navbar-nav .nav-link:hover .icon {
+    font-weight: 550;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-link:hover {
     color: #82382A !important;
-  }
+}
 
-  .navbar-nav .nav-item {
+.navbar-nav .nav-link:hover .icon {
+    color: #82382A !important;
+}
+
+.navbar-nav .nav-item {
     margin-right: 15px;
-  }
+}
 
-  .icon {
+.icon {
     font-size: 30px;
     margin-left: 10px;
-  }
+}
 
-  .navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
     margin: 0px 20px 0px 0px;
-    color: rgba(0, 0, 0, 0.733);
+    color: #e9ecef;
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -43,41 +44,47 @@
     border-radius: 15px;
 }
 
-.dropdown-item{
-    font-size: 18px;
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0 / 73%);
+    border-color: rgb(0 0 0 / 66%);
 }
 
-.dropdown-item:hover{
+.dropdown-item {
+    font-size: 18px;
+    padding: 0.25rem 2.5rem;
+}
+
+.dropdown-item:hover {
     color: #82382A;
     font-size: 20px;
 }
 
-.dropdown-menu.show{
-    transition: opacity 3s ease-in-out; 
+.dropdown-menu.show {
+    transition: opacity 3s ease-in-out;
 }
 
 
 
-main img{
+main img {
     width: 100%;
     height: 960px;
 }
 
 
-section .sec-title h2{
-    text-align: center; 
-    color: #82382A; 
+section .sec-title h2 {
+    text-align: center;
+    color: #82382A;
     font-size: 50px;
     font-weight: 600;
 }
 
-section{
+section {
     margin-top: 12%;
     margin-bottom: 14%;
 }
 
 
-.header-container{
+.header-container {
     margin-bottom: 10%;
 }
 
@@ -90,7 +97,7 @@ section{
     font-size: 30px;
 }
 
-.sec-content{
+.sec-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,81 +106,92 @@ section{
 
 
 
-    /*    P R O D U C T S   */
+/*    P R O D U C T S   */
 
-    #products {
-        background-color: #8a858559; 
-        padding: 30px 0px 35px 0px;
-      }
-      
-    #products .card {
-        height: 390px;
-        padding: 10px;
+#products {
+    background-color: #8a858559;
+    padding: 30px 0px 35px 0px;
+}
+
+#products .card {
+    height: 440px;
+    padding: 10px;
     border-radius: 15px;
     border: 3px #d1ccccb9 solid;
     border-bottom: 2px solid #82382A;
     transition: background-color 0.3s ease;
-      }
-      #products .card:hover {
-        border: 5px solid #63271b;
-        transition: background-color 0.3s ease;
-        background-color: #82382A; 
-        color: white;
-      }
+}
 
-      .card img{
-        height: auto;
-      }
+#products .card:hover {
+    border: 5px solid #63271b;
+    transition: background-color 0.3s ease;
+    background-color: #82382A;
+    color: white;
+}
 
-
-      
-      .card:hover .btn-order-now {
-        background-color: white;
-        color: brown;
-      }
-      
-      .btn-order-now {
-        background-color: brown;
-        border-color: brown;
-        color: white;
-        position: absolute;
-        bottom: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-      
-      .btn-order-now:hover {
-        border-color: brown;
-      }
+.card img {
+    height: 220px;
+}
 
 
 
-      /*   C O N T A C T   */
+.card:hover .btn-order-now {
+    background-color: white;
+    color: brown;
+}
 
-   
-      .contact-item {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        align-items: center;
-        gap: 10px;
-      }
-      
-      .contact-info {
+.btn-order-now {
+    background-color: brown;
+    border-color: brown;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-order-now:hover {
+    border-color: brown;
+}
+
+
+
+/*   C O N T A C T   */
+
+
+.contact-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info {
     display: grid;
     justify-content: center;
     align-items: center;
-      }
-      
-      .contact-btn{
-        margin: 60px;
-      }
-      .contact-btn .btn{
-        font-size: 20px;
-        height: 45px;
-        width: 250px;
-      }
-      .contact-btn .btn:hover{
-        background-color: #63271b;
-        color: white;
-      }
-      
+}
+
+.contact-btn {
+    margin: 60px;
+}
+
+.contact-btn .btn {
+    font-size: 20px;
+    height: 45px;
+    width: 250px;
+}
+
+.contact-btn .btn:hover {
+    background-color: #63271b;
+    color: white;
+}
+
+
+
+
+
+@media (max-width: 991.98px){
+  
+}
+

@@ -67,7 +67,7 @@
 
 main img {
     width: 100%;
-    height: 960px;
+    height: 100vh;
 }
 
 
@@ -127,6 +127,30 @@ section {
     transition: background-color 0.3s ease;
     background-color: #82382A;
     color: white;
+}
+
+#products .card.c-1:hover{
+    background-color: #C6B29D;
+}
+
+#products .card.c-2:hover{
+    background-color: #B9806D;
+}
+
+#products .card.c-3:hover{
+    background-color: #82382A;
+}
+
+#products .card.c-4:hover{
+    background-color: #C6B29D;
+}
+
+#products .card.c-5:hover{
+    background-color: #B9806D;
+}
+
+#products .card.c-6:hover{
+    background-color: #82382A;
 }
 
 .card img {

@@ -1,221 +1,217 @@
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .navbar {
-    background-color: #82382a94;
-    font-size: 22px;
-    font-weight: 550;
+  background-color: #82382a94;
+  font-size: 22px;
+  font-weight: 550;
 }
 
 .navbar-nav .nav-link {
-    color: black;
+  color: black;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #82382A !important;
+  color: #82382a !important;
 }
 
 .navbar-nav .nav-link:hover .icon {
-    color: #82382A !important;
+  color: #82382a !important;
 }
 
 .navbar-nav .nav-item {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .icon {
-    font-size: 30px;
-    margin-left: 10px;
+  font-size: 30px;
+  margin-left: 10px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    margin: 0px 20px 0px 0px;
-    color: #e9ecef;
+  margin: 0px 20px 0px 0px;
+  color: #e9ecef;
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-    background-color: #bb533e7a;
-    color: white;
-    border-radius: 15px;
+  background-color: #bb533e7a;
+  color: white;
+  border-radius: 15px;
 }
 
 .navbar-light .navbar-toggler {
-    color: rgb(0 0 0 / 73%);
-    border-color: rgb(0 0 0 / 66%);
+  color: rgb(0 0 0 / 73%);
+  border-color: rgb(0 0 0 / 66%);
 }
 
 .dropdown-item {
-    font-size: 18px;
-    padding: 0.25rem 2.5rem;
+  font-size: 18px;
+  padding: 0.25rem 2.5rem;
 }
 
 .dropdown-item:hover {
-    color: #82382A;
-    font-size: 20px;
+  color: #82382a;
+  font-size: 20px;
 }
 
 .dropdown-menu.show {
-    transition: opacity 3s ease-in-out;
+  transition: opacity 3s ease-in-out;
 }
-
-
 
 main img {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
+@media only screen and (max-width: 620px) {
+    .header-container img {
+      height: 70vh;
+    }
+}
 
 section .sec-title h2 {
-    text-align: center;
-    color: #82382A;
-    font-size: 50px;
-    font-weight: 600;
+  text-align: center;
+  color: #82382a;
+  font-size: 50px;
+  font-weight: 600;
 }
 
 section {
-    margin-top: 12%;
-    margin-bottom: 14%;
+  margin-top: 12%;
+  margin-bottom: 14%;
 }
-
 
 .header-container {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
-
 
 /* A B O U T  */
 
-
 #about p {
-    font-weight: 500;
-    font-size: 30px;
+  font-weight: 500;
+  font-size: 30px;
 }
 
 .sec-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-
-
 
 /*    P R O D U C T S   */
 
 #products {
-    background-color: #8a858559;
-    padding: 30px 0px 35px 0px;
+  background-color: #8a858559;
+  padding: 30px 0px 35px 0px;
 }
 
 #products .card {
-    height: 440px;
-    padding: 10px;
-    border-radius: 15px;
-    border: 3px #d1ccccb9 solid;
-    border-bottom: 2px solid #82382A;
-    transition: background-color 0.3s ease;
+  height: 440px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 3px #d1ccccb9 solid;
+  border-bottom: 2px solid #82382a;
+  transition: background-color 0.3s ease;
 }
 
 #products .card:hover {
-    border: 5px solid #63271b;
-    transition: background-color 0.3s ease;
-    background-color: #82382A;
-    color: white;
+  border: 5px solid #63271b;
+  transition: background-color 0.3s ease;
+  background-color: #82382a;
+  color: white;
 }
 
-#products .card.c-1:hover{
-    background-color: #C6B29D;
+#products .card.c-1:hover {
+  background-color: #c6b29d;
 }
 
-#products .card.c-2:hover{
-    background-color: #B9806D;
+#products .card.c-2:hover {
+  background-color: #b9806d;
 }
 
-#products .card.c-3:hover{
-    background-color: #82382A;
+#products .card.c-3:hover {
+  background-color: #82382a;
 }
 
-#products .card.c-4:hover{
-    background-color: #C6B29D;
+#products .card.c-4:hover {
+  background-color: #c6b29d;
 }
 
-#products .card.c-5:hover{
-    background-color: #B9806D;
+#products .card.c-5:hover {
+  background-color: #b9806d;
 }
 
-#products .card.c-6:hover{
-    background-color: #82382A;
+#products .card.c-6:hover {
+  background-color: #82382a;
 }
 
 .card img {
-    height: 220px;
+  height: 220px;
 }
 
 
+.best-seller-tag {
+  background-color: #ffc107;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 12px;
+  border-radius: 4px;
+  margin-left: 6px;
+}
 
 .card:hover .btn-order-now {
-    background-color: white;
-    color: brown;
+  background-color: white;
+  color: brown;
 }
 
 .btn-order-now {
-    background-color: brown;
-    border-color: brown;
-    color: white;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
+  background-color: brown;
+  border-color: brown;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .btn-order-now:hover {
-    border-color: brown;
+  border-color: brown;
 }
-
-
 
 /*   C O N T A C T   */
 
-
 .contact-item {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
 }
 
 .contact-info {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-btn {
-    margin: 60px;
+  margin: 60px;
 }
 
 .contact-btn .btn {
-    font-size: 20px;
-    height: 45px;
-    width: 250px;
+  font-size: 20px;
+  height: 45px;
+  width: 250px;
 }
 
 .contact-btn .btn:hover {
-    background-color: #63271b;
-    color: white;
+  background-color: #63271b;
+  color: white;
 }
 
-
-
-
-
-@media (max-width: 991.98px){
-  
+@media (max-width: 991.98px) {
 }
-

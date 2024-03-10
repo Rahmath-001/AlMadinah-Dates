@@ -70,7 +70,7 @@ main img {
 
 @media only screen and (max-width: 620px) {
     .header-container img {
-      height: 70vh;
+      height: 80vh;
     }
 }
 
